@@ -1,0 +1,14 @@
+site_name: Marvin Cruz Gomez
+nav:
+  - Home: index.md
+  - Projects: projects.md
+  - FireCracker: FireCracker.md
+  - Solar Rover: SolarRover.md
+  - Robotics Proving Ground: RoboticsProvingGround.md
+theme:
+  name: lux
+  nav_style: primary
+  highlightjs: True
+  shortcuts:
+    next: 39
+    previous: 37
