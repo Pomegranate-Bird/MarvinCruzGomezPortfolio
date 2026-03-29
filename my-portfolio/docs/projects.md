@@ -1,27 +1,37 @@
 # Projects
 
-Show each project as a block
-Highlight what each project aimed and acomplished 
-Skills utilized, tools used etc...
+<br>
+<br>
 
-Programming Languages:
-1. Python
-2. C
-3. C++
+#### Solar Rover 
+![MPPT-SolarPanel](images/SolarRoverImages/SolarRover2.png)
+<br>
+<br>
 
+#### FireCracker (Current)
+![FireCracker Sensor](images/FireCrackerImages/board.jpg)
+<br>
+<br>
 
-Software:
-1. Matplotlib
-2. Numpy
-3. Pybullet
-4. ROS2
+#### Robotics Proving Grounds 
+![Robotics Proving Grounds](images/RoboticsProvingGround/RoboticProvingGrounds.png)
+<br>
+<br>
 
-Tools:
-1. OScilliscope
-2. VMM
+## Programming Languages: <br>
+1. **Python** <br>
+2. **C** <br>
+3. **C++** <br>
+<br>
 
-CAD:
-1. OnShape
-2. Altium
-3. PSpice
+## Software:
+1. **Matplotlib** <br>
+2. **Numpy** <br>
+3. **Pybullet** <br>
+4. **ROS2** <br>
+<br>
+
+## CAD: <br>
+1. **OnShape** <br>
+2. **Altium** <br>
 

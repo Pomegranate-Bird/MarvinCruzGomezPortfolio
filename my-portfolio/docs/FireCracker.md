@@ -3,12 +3,32 @@
 <br>
 
 ## Introduction:
-FireCracker is an early wildfire detection system, with the goal of providing rural communities with a relaible and cost effective solution to combatting wildfires. 
+FireCracker is an early wildfire detection system, with the goal of providing rural communities with a relaible and cost effective solution to combatting wildfires. Additionally the FireCracker project, will equip local-authorities with the data they need to save lives through our self-sustaining network of sensors that will monitor and prevent fires.
+
 <br>
 <br>
 
-## roject Overview:
-Utilizing an ESP32-Wroom32e and many low-power sensors such as CO,CO2, PM2.5, temperature and Humidity, FireCrackers collect important eviromental data. Gathering good enviromental data is crucial for early wildfire detection, avoiding false positives or negatives from non-wildfire smoke sources. FireCrackers conduct data aggregation and don't conduct any form of onboard computting to conserve power.
+
+## Motivations
+I grew up on the La Jolla Indian Reservation, a rural community that has previously been ravaged by fires such as the 2008 Poomacha wildfire. First-hand experience with wildfires, the power-outtages they produce and the fear of losing everything to them led me to create FireCracker.
+Utilizing my background in research and Electrical Engineering, I aim to provide a robust solution for preventing wildfires and monitoring them. 
+
+![Fire](images/FireCrackerImages/fire.jpg)
+
+<br>
+<br>
+
+
+## Project Overview:
+
+FireCracker is a project that aims to create a network of self-sustaining sensors that monitor  eviromental data for wildfire detection and prediction. Utilziing low power sensors to monitor temperature, humidity and other variables we can detect small fires and store that information for long term weather analysis.  
+
+<br>
+
+#### FireCracker Imgaes
+
+![FireCracker Sensor](images/FireCrackerImages/board.jpg)
+![MPPT-SolarPanel](images/FireCrackerImages/solar_panel.jpeg)
 
 <br>
 
@@ -16,17 +36,10 @@ Utilizing an ESP32-Wroom32e and many low-power sensors such as CO,CO2, PM2.5, te
 
 ![Simplified Node Topology](images/FireCrackerImages/data_piepline_trans.png)
 
- Data is then sent to a collection node for data aggregation, then processed externally by a computation node. By creating a data pipeline that offboards fire detection to a computation node, we're able to minimize power consumption for FireCracker sensors. 
- 
+The data pipeline for the FireCracker project is seperated, prioritizing low power consumption. FireCracker sensors serve as the data collection, data is aggregated at a head node, then sent for analysis to a computation node. Allowing FireCrackers to conduct sensing for prolonger periods of time, allowing them to be purely powered by a solar-panel.  
 
 
- Utilizing a seperate ESP32 as a receiver and a FireCracker sensor as a transceiver, I established communication between the FireCracker and Python. Utilizing this setup I was able to test the FireCracker sensors fire detection capabilities. FireCrackers utilize a two-layer architecture to store enviromental data for long and short term storage. Seperating data storage comes with two advantages, preserving all the data in a csv file for long term analysis and a circular list for fire detection and short-term storage. 
-
-<br>
-
-![FireCracker Sensor](images/FireCrackerImages/board.jpg)
-![MPPT-SolarPanel](images/FireCrackerImages/solar_panel.jpeg)
-
+Additionally FireCrackers are not only fire detection sensors but weather stations. Providing weather data to rural communities and researchers with real-time information. 
 <br>
 <br>
 
@@ -36,6 +49,8 @@ Utilizing an ESP32-Wroom32e and many low-power sensors such as CO,CO2, PM2.5, te
 3. ESPNOW  <br>
 4. Wire.h <br>
 5. Embedded Systems <br>
+
+<br>
 
 ## CAD: <br>
 1. OnShape
