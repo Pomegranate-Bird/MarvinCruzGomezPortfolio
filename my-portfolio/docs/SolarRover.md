@@ -53,3 +53,7 @@ Once the solar-rover was completed, conducted additional power profiling to comp
 ## Programming Languages: <br>
 1. **Python**<br>
 2. **C++**<br>
+
+## Research Program: University of Michigan SROP 
+- Lab: Distributed Autonomous Systems and Control Lab
+    - Mentor: Dimitria Panagou

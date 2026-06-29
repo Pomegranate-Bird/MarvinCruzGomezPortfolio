@@ -52,3 +52,8 @@ Lastly I created the Lidar section, a section explaining the use case of Lidar, 
 
 ## Programming Languages: <br>
 1. **Python** <br>
+
+## Program: University of California San Diego' STARs 
+- Lab: Exestential Robotic's Laboratory 
+    - Mentor: Nikolay Antanasov 
+

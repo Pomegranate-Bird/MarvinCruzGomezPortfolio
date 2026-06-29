@@ -3,17 +3,17 @@
 <br>
 <br>
 
-#### Solar Rover 
+#### Solar Rover: University of Michigan DASC Lab
 ![MPPT-SolarPanel](images/SolarRoverImages/SolarRover2.png)
 <br>
 <br>
 
-#### FireCracker (Current)
+#### FireCracker:
 ![FireCracker Sensor](images/FireCrackerImages/board.jpg)
 <br>
 <br>
 
-#### Robotics Proving Grounds 
+#### Robotics Proving Grounds: University of California San Diego Existential Robotics Lab 
 ![Robotics Proving Grounds](images/RoboticsProvingGround/RoboticProvingGrounds.png)
 <br>
 <br>
